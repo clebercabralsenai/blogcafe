@@ -1,3 +1,16 @@
+@import url(./css/header.css);
+@import url(./css/conteudo.css);
+@import url(./css/footer.css);
+
+:root{
+    --escuro: black;
+    --claro: white;
+    --marrom: rgb(152,123,93);
+    --cinza: rgb(235,235,235);
+    --marrom-avermelhado: brown;
+    --terra: wheat;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,82 +26,15 @@ h1,h2,nav > a{
     text-decoration: none;
 }
 body{
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 /* ====================HEADER================================ */
-header{
-    width: 80%;
-    
-}
-header  img{
-    height: 5rem;
-
-}
-.titulo{
-    display: flex;
-    align-items: center;
-    background-color: rgb(152,123,93);
-    padding-left: 5rem;
-}
-header h1{
-    color: white;
-    width: 100%;
-    /* display: flex;
-    justify-content: center; */
-    text-align: center;
-    font-size: 1.6rem;
-}
-header nav{
-    background-color: wheat;
-    /* width: 100%;
-    text-align: center; */
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    padding-left: 5rem;
-    align-items: center;
-    gap: 4rem;
-
-
-}
-nav > a{
-    color: brown;
-    font-size: 1.6rem;
-}
 
 /* ====================MAIN================================ */
-main{
-    width: 80%;
-    background-color: rgb(235,235,235);
 
-}
-.conteudo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    background-color: white;
-    border-radius: 1.5rem;
-    margin: 2rem 12rem;
-    gap: 1rem;
-}
-.conteudo h2{
-    font-size: 2.4rem;
-    margin-top: 2.5rem;
-
-}
-.conteudo img{
-    border-radius: 1.5rem;
-    width: 75rem;
-    height: 35rem;
-}
-.conteudo p{
-    font-size: 1.6rem;
-    padding: 1.5rem;
-}
 /* .conteudo .banner{
     border-radius: 1.5rem;
     overflow: hidden;
@@ -106,10 +52,5 @@ main{
     border-radius: 1.5rem;
 
 } */
-.footer{
-    background-color: black;
-    height: 8rem;
-    width: 80%;
 
-}
 

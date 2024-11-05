@@ -1,0 +1,39 @@
+header{
+    width: 80%;
+    
+}
+header  img{
+    height: 5rem;
+
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    background-color: var(--marrom);
+    padding-left: 5rem;
+}
+header h1{
+    color: var(--claro);
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    font-size: 1.6rem;
+}
+header nav{
+    background-color: var(--terra);
+    /* width: 100%;
+    text-align: center; */
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    padding-left: 5rem;
+    align-items: center;
+    gap: 4rem;
+
+
+}
+nav > a{
+    color: var(--marrom-avermelhado);
+    font-size: 1.6rem;
+}
