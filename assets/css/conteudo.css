@@ -27,8 +27,25 @@ main{
     font-size: 1.6rem;
     padding: 1.5rem;
 }
-/* ****************** Responsividade 400px ***************************** */
-@media (max-width: 400px){
+/* ****************** Responsividade 450px ***************************** */
+@media (max-width: 450px){
+    main{
+        width: 100%;
+    }
+    .conteudo{
+        margin: 2rem 3rem;
+        
+    }
+    .conteudo img{
+        width: 90%;
+        height: 50%;
+    }
+    .conteudo p{
+        text-align: justify;
+    }
+}
+/* 1024 */
+@media (max-width: 1024px){
     main{
         width: 100%;
     }
@@ -38,6 +55,25 @@ main{
     .conteudo img{
         width: 90%;
         height: 50%;
+        
+    }
+    .conteudo p{
+        text-align: justify;
+    }
+}
+
+/* 1440 */
+@media (max-width: 1440px){
+    main{
+        width: 100%;
+    }
+    .conteudo{
+        margin: 2rem 5rem;
+    }
+    .conteudo img{
+        width: 90%;
+        height: 50%;
+        
     }
     .conteudo p{
         text-align: justify;

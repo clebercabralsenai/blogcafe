@@ -37,8 +37,8 @@ nav > a{
     color: var(--marrom-avermelhado);
     font-size: 1.6rem;
 }
-/* ****************** Responsividade 400px ***************************** */
-@media (max-width: 400px) {
+/* ****************** Responsividade 450px ***************************** */
+@media (max-width: 450px) {
     header{
         width: 100%;
     }
@@ -51,6 +51,28 @@ nav > a{
     }
     nav > a{
         font-size: 1.4rem;
+
+    }
+}
+
+/* ****************** Responsividade 1024px ***************************** */
+@media (max-width: 1024) {
+    header{
+        width: 100%;
+    }
+    nav > a{
+        font-size: 1rem;
+        
+
+    }
+}
+/* ****************** Responsividade 1440px ***************************** */
+@media (max-width: 1440) {
+    header{
+        width: 100%;
+    }
+    nav > a{
+        font-size: 1.2rem;
 
     }
 }
